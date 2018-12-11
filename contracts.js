@@ -3,6 +3,7 @@ var userContract = (user) => {
         username: user.get('username'),
         role: user.get('role'),
         id: user.id,
+        measure_count: user.get('measure_count'),
         enabled: user.get('enabled')
     }
 }
