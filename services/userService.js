@@ -30,6 +30,7 @@ var createUser = (username, password) => {
         username: username,
         password: hashedPassword,
         role: 'user',
+        measure_count: 0,
         salt: salt,
         enabled: true
     }).save();
